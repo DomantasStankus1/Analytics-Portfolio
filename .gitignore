@@ -1,0 +1,25 @@
+# Slaptažodžiai, API raktai, aplinkos kintamieji
+.env
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistemos failai
+.DS_Store
+Thumbs.db
+
+# Duomenų failai (jei nenori kelti didelių/privačių duomenų)
+*.csv
