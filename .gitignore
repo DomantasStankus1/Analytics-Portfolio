@@ -8,6 +8,8 @@ __pycache__/
 *.pyc
 venv/
 .venv/
+dbt-env/
+surfshark_task/
 
 # dbt
 target/

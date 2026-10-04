@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: thelook
+    database: project-c498557d-ed30-48e6-905
+    schema: portfolio_us
+    tables:
+      - name: raw_users
+      - name: raw_orders
+      - name: raw_order_items
+      - name: raw_products
+      - name: raw_distribution_centers
